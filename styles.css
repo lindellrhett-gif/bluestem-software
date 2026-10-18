@@ -3,8 +3,8 @@
   --bg-alt: #f2ede6;
   --text: #1f1b17;
   --muted: #5f564d;
-  --accent: #b5471f;
-  --accent-dark: #8f3516;
+  --accent: #2f5d8a;
+  --accent-dark: #1f4468;
   --card: #ffffff;
   --border: #e3dbd0;
 }
@@ -14,8 +14,8 @@
     --bg-alt: #1d1915;
     --text: #f1ebe3;
     --muted: #b3a89b;
-    --accent: #e0703f;
-    --accent-dark: #f08a5a;
+    --accent: #6fa8dc;
+    --accent-dark: #9cc3ea;
     --card: #221d18;
     --border: #3a322a;
   }
