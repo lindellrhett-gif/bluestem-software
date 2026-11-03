@@ -73,6 +73,8 @@ h3 { margin: 0; font-size: 1.25rem; }
 .features li { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; color: var(--muted); }
 .features strong { display: block; color: var(--text); margin-bottom: 4px; }
 
+.subhead { margin: 44px 0 16px; }
+
 .mail { font-size: 1.2rem; font-weight: 600; }
 address { font-style: normal; color: var(--muted); margin-top: 16px; }
 
