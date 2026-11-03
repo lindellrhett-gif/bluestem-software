@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="7" fill="#2f5d8a"/>
-  <path d="M11 7v18M11 7h6.5a4.5 4.5 0 0 1 0 9H11M11 16h7.5a4.5 4.5 0 0 1 0 9H11" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Bluestem Software - Option 1: Blades</title>
+  <rect width="100" height="100" rx="22" fill="#2f5d8a"/>
+  <path d="M36 86C34 70 26 54 16 38C34 48 46 66 52 86Z" fill="#9cc3ea"/>
+  <path d="M64 86C66 70 74 54 84 38C66 48 54 66 48 86Z" fill="#f0b27a"/>
+  <path d="M42 86C39 64 35 40 32 18C46 38 54 62 56 86Z" fill="#dcebf8"/>
+  <path d="M58 86C61 66 65 44 70 20C60 40 52 64 50 86Z" fill="#e3924f"/>
+  <path d="M45 86C45 60 47 34 51 8C55 34 57 60 57 86Z" fill="#ffffff"/>
+  <rect x="26" y="85" width="48" height="5" rx="2.5" fill="#ffffff" opacity="0.9"/>
 </svg>
