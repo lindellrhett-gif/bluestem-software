@@ -4,116 +4,144 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bluestem Software</title>
-  <meta name="description" content="Bluestem Software LLC builds iPhone apps and websites: Rust Strength, Shelfsmith, and custom websites and mobile apps for clients.">
+  <meta name="description" content="Bluestem Software LLC is an independent software studio in North Dakota. Rust Strength, Shelfsmith, Orbit Arena, and custom websites and apps for clients.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://bluestemsoftware.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bluestem Software">
+  <meta property="og:description" content="Independent software studio in North Dakota. Rust Strength, Shelfsmith, Orbit Arena, and custom websites and apps for clients.">
+  <meta property="og:url" content="https://bluestemsoftware.com/">
+  <meta name="theme-color" content="#06080c">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#top">Skip to main content</a>
-  <header class="site-header">
-    <div class="wrap bar">
-      <a class="brand" href="#top" aria-label="Bluestem Software home">
-        <img src="favicon.svg" alt="" width="28" height="28">
-        <span>Bluestem Software</span>
-      </a>
-      <nav aria-label="Primary">
-        <a href="#apps">Apps</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Bluestem Software home"><img src="favicon.svg" alt="" width="28" height="28"><span>Bluestem Software</span></a>
+      <nav class="links" aria-label="Primary">
+        <a href="#apps">Apps</a><a href="#work">Work</a><a href="#services">Services</a>
+        <a class="pill" href="#contact">Start a project</a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
+  <main id="main">
+    <div class="hero" id="top">
       <div class="wrap">
-        <p class="eyebrow">Bluestem Software LLC &middot; North Dakota</p>
-        <h1>Well-made software, built in North Dakota.</h1>
-        <p class="lead">Bluestem Software is a small independent studio making iPhone apps and websites. We keep things simple, fast, and respectful of your time and your data.</p>
+        <a class="chip" href="#apps"><span class="dot"></span><span><b>Orbit Arena</b> is now on the App Store</span><span class="go">See it</span></a>
+        <h1>Software with a straight edge.</h1>
+        <p class="lead">Bluestem Software is an independent studio in North Dakota. We make iPhone apps people use every day, and build websites and apps for clients who want them done right.</p>
         <p class="cta">
-          <a class="btn primary" href="#apps">See our apps</a>
-          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn primary" href="#apps">Explore our apps</a>
+          <a class="btn" href="#contact">Commission a project</a>
         </p>
+        <div class="phones" aria-label="Screens from Shelfsmith, Rust Strength and Orbit Arena">
+          <div class="phone"><img src="assets/ss-cook.jpg" alt="Shelfsmith showing recipes you can cook tonight" width="520" height="1130"></div>
+          <div class="phone"><img src="assets/rs-suggestion.jpg" alt="Rust Strength suggesting 230 pounds for the next set" width="520" height="1127"></div>
+          <div class="phone"><img src="assets/oa-escape.jpg" alt="Orbit Arena glowing rings with a ball escaping" width="520" height="1130"></div>
+        </div>
       </div>
-    </section>
+      <div class="phones-fade"></div>
+      <div class="wrap trust"><span>Live on the App Store</span><span>iPhone &amp; web</span><span>Private by design</span><span>Made in North Dakota</span></div>
+    </div>
 
-    <section id="apps" class="section">
+    <section id="apps">
       <div class="wrap">
-        <h2>Our apps</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Rust Strength</h3>
-            <p class="tag">iPhone app &middot; Available now</p>
-            <p>A workout tracker that tells you what weight to put on the bar for your next set. Log weight, reps, and how hard it felt, and Rust Strength estimates your strength and suggests your next load. Track streaks and records, train with friends, and keep logging even without signal.</p>
-            <ul class="links">
-              <li><a class="btn primary" href="https://apps.apple.com/us/app/rust-strength/id6811736131">Download on the App Store</a></li>
-              <li><a href="https://lindellrhett-gif.github.io/rust-strength/">Support &amp; legal<span class="sr-only"> for Rust Strength</span></a></li>
-            </ul>
+        <p class="eyebrow">Our apps</p>
+        <h2>Three apps. One standard.</h2>
+        <p class="sub">Each one does a single thing well, loads fast, works offline where it can, and respects your data.</p>
+
+        <div class="bento">
+          <article class="tile t-rs">
+            <span class="glow"></span>
+            <div class="app-head"><img loading="lazy" decoding="async" src="assets/icon-rust-strength.png" alt="Rust Strength app icon" width="56" height="56"><div><h3>Rust Strength</h3><span class="status">Available now</span></div></div>
+            <p>Tells you what weight to put on the bar for your next set. Log weight, reps and effort, and it learns your strength.</p>
+            <div class="row"><a class="btn primary" href="https://apps.apple.com/us/app/rust-strength/id6811736131">Download on the App Store<span class="sr"> for Rust Strength</span></a><a class="ghost" href="https://lindellrhett-gif.github.io/rust-strength/">Support &amp; legal<span class="sr"> for Rust Strength</span></a></div>
+            <div class="phone shot"><img loading="lazy" decoding="async" src="assets/rs-suggestion.jpg" alt="" width="520" height="1127"></div>
           </article>
-          <article class="card">
-            <h3>Shelfsmith</h3>
-            <p class="tag">iPhone app &middot; Open beta</p>
-            <p>Knows what food you have and tells you what you can cook with it. Scan a grocery receipt to fill a shared household pantry, then see recipes you can make right now and ones you are one or two items short of, with calories and macros.</p>
-            <p>Shelfsmith is in open beta on TestFlight. Join to try it early and help shape it.</p>
-            <ul class="links">
-              <li><a class="btn primary" href="https://testflight.apple.com/join/tEdnNdDY">Join the beta on TestFlight</a></li>
-              <li><a href="https://lindellrhett-gif.github.io/shelfsmith/site/">Support &amp; legal<span class="sr-only"> for Shelfsmith</span></a></li>
-            </ul>
+
+          <article class="tile t-ss">
+            <span class="glow"></span>
+            <div class="app-head"><img loading="lazy" decoding="async" src="assets/icon-shelfsmith.png" alt="Shelfsmith app icon" width="56" height="56"><div><h3>Shelfsmith</h3><span class="status beta">Open beta</span></div></div>
+            <p>Scan a grocery receipt, fill a shared pantry, and see what you can cook tonight.</p>
+            <div class="row"><a class="btn primary" href="https://testflight.apple.com/join/tEdnNdDY">Join the TestFlight beta</a><a class="ghost" href="https://lindellrhett-gif.github.io/shelfsmith/site/">Support &amp; legal<span class="sr"> for Shelfsmith</span></a></div>
+            <div class="phone shot"><img loading="lazy" decoding="async" src="assets/ss-pantry.jpg" alt="" width="520" height="1130"></div>
+          </article>
+
+          <article class="tile t-oa">
+            <span class="glow"></span>
+            <div class="copy">
+              <div class="app-head"><img loading="lazy" decoding="async" src="assets/icon-orbit-arena.png" alt="Orbit Arena app icon" width="56" height="56"><div><h3>Orbit Arena</h3><span class="status">Available now</span></div></div>
+              <p>Satisfying physics sims you can play. Pick a color, a country or a marble, watch the run, then build your own and save it as a video. Every bounce plays the next note of a classic melody.</p>
+              <div class="row"><a class="btn primary" href="https://apps.apple.com/us/app/id6828600863">Download on the App Store<span class="sr"> for Orbit Arena</span></a><a class="btn" href="https://lindellrhett-gif.github.io/orbit-arena/">Play in your browser</a><a class="ghost" href="https://lindellrhett-gif.github.io/orbit-arena/support.html">Support &amp; legal<span class="sr"> for Orbit Arena</span></a></div>
+            </div>
+            <div class="shots">
+              <div class="phone"><img loading="lazy" decoding="async" src="assets/oa-pick.jpg" alt="Orbit Arena: pick a color before the run" width="520" height="1130"></div>
+              <div class="phone"><img loading="lazy" decoding="async" src="assets/oa-race.jpg" alt="Orbit Arena race" width="520" height="1130"></div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="services" class="section alt">
+    <section id="work" class="work">
       <div class="wrap">
-        <h2>Websites &amp; mobile apps, built to order</h2>
-        <p class="lead small">Bluestem Software takes on commissions. If you need a website or an iPhone app for your business, club, or organization, we can design it, build it, and keep it running.</p>
-        <ul class="features">
-          <li><strong>Website builds</strong> Clean, fast, mobile-friendly sites that are easy to maintain, from a simple one-pager to a multi-page site with events, forms, or a store.</li>
-          <li><strong>Mobile apps</strong> Custom iPhone apps from the developer behind Rust Strength and Shelfsmith, from first idea through App Store release.</li>
-          <li><strong>Care &amp; updates</strong> Hosting help, edits, and fixes after launch.</li>
-        </ul>
-        <h3 class="subhead">Recent work</h3>
-        <div class="cards">
-          <article class="card">
-            <h4>Grand Forks Young Republicans</h4>
-            <p class="tag">Website build</p>
-            <p>A multi-page site for a local organization, with an events page, a merch storefront, and membership and donation links.</p>
-            <ul class="links">
-              <li><a href="https://gfyr.org">Visit gfyr.org</a></li>
-            </ul>
-          </article>
+        <p class="eyebrow">Selected work</p>
+        <h2>Sites we built for real people.</h2>
+        <p class="sub">The same care we put into our own apps goes into client websites: fast, readable on any screen, and easy for you to keep current.</p>
+        <div class="work-grid">
+          <a class="case" href="https://brundinbuilders.com">
+            <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">brundinbuilders.com</span></div>
+              <img loading="lazy" decoding="async" src="assets/brundin-desktop.jpg" alt="Brundin Builders website: Quality construction and renovation, built to last" width="1280" height="860">
+              <div class="mini"><img loading="lazy" decoding="async" src="assets/brundin-phone.jpg" alt="" width="390" height="844"></div>
+            </div>
+            <div class="case-info"><div><h3>Brundin Builders</h3><p>Home builder and remodeler in Grand Forks. A site that leads with their work and makes a free estimate one tap away.</p></div><span class="arrow" aria-hidden="true">&#8599;</span></div>
+          </a>
+          <a class="case" href="https://gfyr.org">
+            <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">gfyr.org</span></div>
+              <img loading="lazy" decoding="async" src="assets/gfyr-desktop.jpg" alt="Grand Forks Young Republicans website" width="1280" height="800">
+              <div class="mini"><img loading="lazy" decoding="async" src="assets/gfyr-phone.jpg" alt="" width="390" height="844"></div>
+            </div>
+            <div class="case-info"><div><h3>Grand Forks Young Republicans</h3><p>A multi-page site for a local organization, with events, a merch store, and membership and donation links.</p></div><span class="arrow" aria-hidden="true">&#8599;</span></div>
+          </a>
         </div>
-        <p class="cta">
-          <a class="btn primary" href="mailto:rhett@bluestemsoftware.com?subject=Project%20inquiry">Commission a project</a>
-        </p>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="wrap narrow">
-        <h2>About</h2>
-        <p>Bluestem Software LLC is an independent software company based in North Dakota, founded by Rhett Lindell. It is the home of Rust Strength and Shelfsmith, and it takes on custom website and mobile app projects for clients.</p>
+    <section id="services">
+      <div class="wrap">
+        <p class="eyebrow">Services</p>
+        <h2>Built to order, kept running.</h2>
+        <p class="sub">If you need a website or an iPhone app for your business, club or idea, we design it, build it and look after it.</p>
+        <div class="svc">
+          <div><span class="n">01</span><h3>Websites</h3><p>Clean, fast, mobile-friendly sites, from a one-pager to a multi-page site with forms, events or a store.</p></div>
+          <div><span class="n">02</span><h3>Mobile apps</h3><p>Custom iPhone apps from the developer behind Rust Strength, Shelfsmith and Orbit Arena. From idea to App Store.</p></div>
+          <div><span class="n">03</span><h3>Care &amp; updates</h3><p>Hosting, edits and fixes after launch, so your site never goes stale.</p></div>
+        </div>
+        <div class="steps" aria-label="How a project runs"><span>Discuss</span><span>Design</span><span>Build</span><span>Launch</span><span>Care</span></div>
       </div>
     </section>
 
-    <section id="contact" class="section alt">
-      <div class="wrap narrow">
-        <h2>Contact</h2>
-        <p>Questions, support, or a project in mind? Email us and we will get back to you.</p>
-        <p><a class="mail" href="mailto:rhett@bluestemsoftware.com">rhett@bluestemsoftware.com</a></p>
-        <address>Bluestem Software LLC<br>308 6th St W, Park River, ND 58270</address>
+    <section id="contact" style="padding-top:20px">
+      <div class="wrap">
+        <div class="final">
+          <p class="eyebrow">Contact</p>
+          <h2>Have something to build?</h2>
+          <p class="lead">Tell us about your project and we will get back to you.</p>
+          <p class="cta"><a class="btn primary" href="mailto:rhett@bluestemsoftware.com?subject=Project%20inquiry">Email us</a></p>
+          <a class="mail" href="mailto:rhett@bluestemsoftware.com">rhett@bluestemsoftware.com</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer>
     <div class="wrap">
-      <p>&copy; <span id="year">2026</span> Bluestem Software LLC. All rights reserved.</p>
-      <p>If anything on this site is hard to use with your device or assistive technology, email <a href="mailto:rhett@bluestemsoftware.com?subject=Website%20accessibility">rhett@bluestemsoftware.com</a> and we will fix it or get you the information another way.</p>
+      <div><p><strong>Bluestem Software LLC</strong></p><p>308 6th St W, Park River, ND 58270</p></div>
+      <div><p>&copy; <span id="y">2026</span> Bluestem Software LLC. All rights reserved.</p><p>Trouble using this site? <a href="mailto:rhett@bluestemsoftware.com?subject=Website%20accessibility">Email us</a> and we will fix it.</p></div>
     </div>
   </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
